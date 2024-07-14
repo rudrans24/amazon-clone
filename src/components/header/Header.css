@@ -1,0 +1,212 @@
+.header {
+    background-color: rgb(19,25,33);
+    height: 60px;
+    color: #fff;
+    display: flex;
+}
+
+/*logo*/
+.logo-container {
+    height: 50px;
+    margin: 5px 5px auto 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    background: url('https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB600086755_.png');
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+    overflow: hidden;
+}
+
+.border-white {
+    border: 1.5px solid transparent;
+}
+
+.border-white:hover {
+    border: 1.5px solid #fff;
+}
+
+.dotin {
+    position: relative;
+    margin-top: -10px;
+    margin-left: -22px;
+    font-size: 1.1rem;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    pointer-events: none;
+}
+
+/*Address*/
+.address-container {
+    margin: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 15%;
+}
+
+.pincode {
+    margin: 0;
+    color: #ccc;
+    font-size: 0.7rem;
+    padding-left: 25px;
+    padding-right: 5px;
+    margin-top: 3px;
+    margin-bottom: -4px;
+}
+
+.icon-address {
+    display: flex;
+}
+
+.icon-location {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.location-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*Search-bar*/
+.search-bar {
+    display: flex;
+    width: 48%;
+    margin: 10px 0;
+    border-radius: 4px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.search-bar:hover {
+    outline: 3px solid #FEBD69;
+}
+
+.search-all {
+    width: 50px;
+    background-color: #D4D4D4;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.search-text {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 50px;
+    background-color: #FEBD69;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/*header right menu*/
+.header-right-menu {
+    display: flex;
+    width: 28%;
+    justify-content: space-evenly;
+}
+
+/*language options*/
+.language-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.language-image {
+    width: 20px;
+}
+
+.language-image img {
+    width: 100%;
+}
+
+.language-dropdown {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/*account sign in*/
+.sign-in {
+    padding: 10px;
+    margin: 5px 0;
+    width: 150px;
+    padding: 5px;
+    height: 50px;
+}
+
+.hello-text {
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-bottom: -7px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.account-text {
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: -5px;
+    padding-left: 5px;
+    margin-top: -10px;
+    padding-right: -7px;
+    height: 14px;
+    width: 100%;
+    pointer-events: none;
+}
+
+/*return & order*/
+.returns-orders {
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+.returns-text {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: -5px;
+    padding-top: 6px;
+}
+
+.orders-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/*cart container*/
+.cart-container {
+    padding-top: 13px;
+    padding-left: 17px;
+    margin: 5px 0;
+    margin-right: -4px;
+    width: 70px;
+    display: flex;
+    height: 50px;
+}
+

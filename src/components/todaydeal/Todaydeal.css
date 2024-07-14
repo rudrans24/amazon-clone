@@ -1,0 +1,62 @@
+.today-deal {
+    background-color: white;
+    margin: 10px 22px;
+    padding: 2px 15px;
+    padding-bottom: 30px;
+}
+
+.today-deal h2 {
+    font-size: 1.3rem;
+}
+
+span {
+    font-size: small;
+    padding-left: 10px;
+    color: #007185;
+}
+
+span:hover {
+    font-size: small;
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+}
+
+.image-row {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.image-row img {
+    padding-right: 10px;
+}
+
+.image-body {
+    width: 220px;
+}
+
+.image-body img {
+    width: 100%;
+}
+
+.image-row-flex {
+    position: relative;
+}
+
+.image-row-btn-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.image-row-btn {
+    padding: 30px 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}

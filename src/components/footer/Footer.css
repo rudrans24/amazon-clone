@@ -1,0 +1,160 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.foot-1 {
+    background-color: #37475A;
+    height: 50px;
+}
+
+.foot-1 p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.foot-2 {
+    background-color: #232F3E;
+    height: 460px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    padding: 30px, 50px;
+    height: 360px;
+    border-bottom: 1pt solid rgb(78, 78, 78);
+}
+
+.list-down {
+    margin: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding: 0, 70px;
+}
+
+.list-down h2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.list-down p {
+    font-size: 0.9rem;
+    margin: 10px, 0;
+}
+
+.logo-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.language-list {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-radius: 5%;
+    width: 120px;
+    height: 35px;
+}
+
+.lang-icon {
+    margin: 5px;
+    font-size: medium;
+}
+
+.language-list p{
+    font-size: small;
+    margin-right: 30px;
+}
+
+.unfold-icon {
+    font-size: medium;
+    color: gray;
+}
+
+.region-list {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-radius: 5%;
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.flag-img {
+    height: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.region-list p{
+    margin-left: 5px;
+    font-size: small;
+}
+
+.foot-3 {
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.service-list h2 {
+    font-size: 0.7rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.service-list p {
+    font-size: 0.7rem;
+    color: gray;
+    margin: 0;
+    font-weight: 400;
+}
+
+.copyright {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.copyright-row {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-row p {
+    margin: 0;
+    font-size: small;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.copyright p {
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: small;
+}
